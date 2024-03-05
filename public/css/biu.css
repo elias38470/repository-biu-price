@@ -1,0 +1,72 @@
+.image-banner {
+    background-image: url(/images/super-biu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 320px;
+    text-align: center;
+
+}
+
+.descripcion-page {
+    padding: 10%;
+    color: #815475
+}
+
+.descripcion-page h1 {
+    font-family: var(--biu-font-family);
+    font-size: 35px;
+}
+
+.descripcion-page h2 {
+    font-family: var(--biu-font-family);
+    font-size: 25px;
+}
+
+.encabezado-titulo{
+    display: flex;
+    width: 100%;
+}
+
+.boton-eliminar-tabla{
+    width: 28%;
+    text-align: right;
+    align-self: center;
+}
+
+main {
+    background-color: #D86AA7
+}
+
+.container-tables{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.tabla-compras{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 1%;
+    background-color: #dc94ba;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.tabla-titulo{
+    margin-bottom: 1%;
+    width: 70%;
+}
+.tabla-tabla{
+    width: 100%;
+    border-spacing:0 ;
+}
+td ,th{
+    padding: 0.5%;
+    border-top: 1px black solid;
+}
+
+
+footer {
+    background-color: #D86AA7;
+    text-align: center;
+    padding-bottom: 1%;
+}

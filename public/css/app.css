@@ -1,6 +1,6 @@
 /*====== Fonts ======*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /*====== Variables ======*/
 :root {
@@ -10,13 +10,16 @@
   --gray: #666666;
   --light-gray: #ebebeb;
   --green: #39b54a;
-  --base-font-family: 'Roboto', sans-serif
+  --base-font-family: 'Roboto', sans-serif;
+  --biu-font-family: 'Playfair'
 }
 
 
 /*====== Basics ======*/
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html,
@@ -142,11 +145,10 @@ hr {
 
 /*====== Banner ======*/
 .banner {
-  background-image: url(/images/img-home-banner.jpg);
+  background-image: url(/images/super-biu.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  height: 100px;
+  background-position:  center;
 }
 
 
