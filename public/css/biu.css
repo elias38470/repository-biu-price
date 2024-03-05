@@ -3,9 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 320px;
     text-align: center;
-
 }
 
 .descripcion-page {
@@ -15,12 +13,10 @@
 
 .descripcion-page h1 {
     font-family: var(--biu-font-family);
-    font-size: 35px;
 }
 
 .descripcion-page h2 {
     font-family: var(--biu-font-family);
-    font-size: 25px;
 }
 
 .encabezado-titulo{
